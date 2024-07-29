@@ -1570,7 +1570,9 @@
 ;; 1. Which file format is it, markdown or org mode?
 ;; 2. Is it in the properties area? Then we can enable the ":" autopair
 (def autopair-map
-  {})
+  {"[" "]"
+   "{" "}"
+   "(" ")"})
   ;; {"[" "]"
   ;;  "{" "}"
   ;;  "(" ")"
